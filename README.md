@@ -3,7 +3,7 @@
  * @Autor: yetm
  * @Date: 2020-03-23 15:05:36
  * @LastEditors: yetm
- * @LastEditTime: 2020-04-15 17:15:13
+ * @LastEditTime: 2020-04-16 10:29:11
  -->
 ## VUE项目模板
 
@@ -18,16 +18,18 @@
 │ ├── api // 请求接口 
 │ │ ├── index.js     // api导出
 │ ├── assets // 静态资源 
+│ ├──├── images // 图片 
+│ ├──├── styles //css基本样式 
 │ ├── components //  公共组件
 │ ├── config //  全局配置
 │ │ │ ├── index.js // 
-│ │── view  // 页面
+│ │── layout  // 页面布局
 │ │── router  // 路由
 │ │── store  // 状态管理
-│ │── style  // css
 │ │── util  // 工具
 │ │ ├── index.js     // 方法导出
 │ │ ├── request.js     // fetch请求方法
+│ │── views  // 页面
 │ ├── app.vue //  
 │ ├── main.js //  入口文件
 └── package.json   //项目说明
