@@ -3,7 +3,7 @@
  * @Autor: yetm
  * @Date: 2020-03-23 15:37:25
  * @LastEditors: yetm
- * @LastEditTime: 2020-04-16 09:55:37
+ * @LastEditTime: 2020-04-17 14:09:29
  -->
 <style lang="less">
 @import "../assets/styles/base.less";
@@ -13,10 +13,7 @@
   <el-container class="layout">
     <template v-if="navMenu ==='left'">
       <el-aside class="layout_aside" :width="isCollapse?'64px':'200px'">
-        <div class="layout_logo" :width="isCollapse?'64px':'200px'">
-          <img v-if="isCollapse" src="@/assets/images/logo-min.png" alt="logo" />
-          <img v-else src="@/assets/images/logo.png" alt="logo" />
-        </div>
+        <div class="layout_logo" :width="isCollapse?'64px':'200px'">我可以是logo</div>
         <NavMenu :isCollapse="isCollapse" :menuList="menuList"></NavMenu>
       </el-aside>
       <el-container>
@@ -43,9 +40,7 @@
     <template v-else>
       <el-header class="layout_header">
         <div class="header_left">
-          <div class="layout_logo" width="200px">
-            <img src="@/assets/images/logo.png" alt="logo" />
-          </div>
+          <div class="layout_logo" width="200px">我可以是logo</div>
           <div class="left_two">
             <NavMenu mode="horizontal" :menuList="menuList"></NavMenu>
           </div>
